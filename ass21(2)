@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<Conio.h>
+int main()
+{
+int n,i,j;
+scanf("%d",&n);
+for(i=1,j=n;j>=1;i++,j--)
+{
+printf("\n %d %d",i,j);
+}
+}
